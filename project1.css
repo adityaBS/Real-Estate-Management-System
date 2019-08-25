@@ -1,0 +1,224 @@
+.search {
+    position: fixed;
+    width: 300px;
+    height: 50px;
+	top:50%;
+	left:50%;
+	margin-top:-150px;
+	margin-left:-250px;
+}
+#radio{
+	position: fixed;
+	width: 300px;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left:-250px;
+}
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+}
+.button{
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-left:100px;
+	margin-top:-150px;
+	width:100px;
+	height:30px;
+}
+ 
+ body
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('back1.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-color:#00BFFF;
+
+}
+
+
+.buyer
+{
+width:300px;
+height:158px;
+}
+.seller
+{
+background-image:url('seller.png');
+width:300px;
+height:158px;
+text-align:center;
+}
+.header
+{
+position:fixed;
+top:2%;
+left:50%;
+font-size:40px;
+margin-left:-250px;
+text-align:center;
+background-position:center;
+width:500px;
+height:100px;
+}
+field
+{
+width:450px;
+position:relative;
+left:50%;
+margin-left:-250px;
+}
+.rooms
+{
+position:fixed;
+width:500px;
+top:50%;
+margin-top:-100px;
+left:50%;
+margin-left:-250px;
+}
+.signin
+{
+position:fixed;
+width:70px;
+height:50px;
+top:3%;
+left:50%;
+margin-left:400px;
+}
+.signup
+{
+position:fixed;
+width:70px;
+height:50px;
+top:3%;
+left:50%;
+margin-left:480px;
+}
+div.welcome
+{
+position:fixed;
+width:300px;
+font-size:20px;
+color:green;
+top:0.5%;
+left:50%;
+margin-left:280px;
+padding:10px;
+border:5px solid gray;
+background-color:white;
+}
+.welcome form
+{
+position:fixed;
+width:100px;
+top:3%;
+left:50%;
+margin-left:520px;
+}
+#footer_text {position:fixed; bottom:1%; width:400px; left:50%; margin-left:-200px; padding-top:18px;border-top:1px solid #000000;text-align:center}
+#footer_text a {color:#F0F0F0 ;text-decoration:none}
+#footer_text a:hover {text-decoration:underline}
+#interest a {color:black ;text-decoration:none}
+#interest a:hover {text-decoration:underline}
+
+.signup_form
+{
+
+background-color:#F0F8FF;
+width:500px;
+position:fixed;
+top:50%;
+margin-top:-200px;
+left:50%;
+margin-left:-250px;
+}
+#tabs
+{
+position:fixed;
+width:500px;
+top:50%;
+left:50%;
+margin-left:-250px;
+margin-top:-50px;
+}
+.estateinfo
+{
+position:fixed;
+top:50%;
+left:50%;
+width:500px;
+margin-left:-250px;
+margin-top:-150px;
+background-color:#F0F8FF;
+}
+.estateinfo_form
+{
+background-color:#F0F8FF;
+}
+#search_result
+{
+position:fixed;
+top:50%;
+left:50%;
+margin-left:-350px;
+margin-top:-150px;
+width:700px;
+}
+table,td,th
+{
+border:1px solid black;
+text-align:centre;
+font-size:20px;
+}
+
+th
+{
+height:50px;
+background-color:#008080;
+}
+td
+{
+background-color:#F0F8FF;
+}
+.sidebar 
+{
+position:fixed;
+Width:325px;
+top:50%;
+left:3%;
+margin-top:-150px;
+background-color:white;
+}
+.sidebar p
+{
+text-align:center;
+background-color:#3CB371;
+color:white;
+text-transform:capitalize;
+}
+.search1
+{
+position:fixed;
+width:100px;
+top:3%;
+left:50%;
+margin-left:-600px;
+}
+.create
+{
+position:fixed;
+width:100px;
+top:3%;
+left:50%;
+margin-left:-480px;
+}
+
+
+
+

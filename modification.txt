@@ -1,0 +1,8 @@
+1- header me css ka naam change.
+
+2- validation such is is numeric etc. put input type="number" where only number is required.
+
+3-style sheet of each pages.
+4-footer me @copyright reserved.
+4-title of all the pages.
+6-set forms at center

@@ -1,0 +1,124 @@
+<html>
+<head><title>Sign Up</title>
+<link href="project1.css" rel="stylesheet" type="text/css" />
+<div class="header"><img border="0" src="logo.jpg" alt="Real Estate Management" width="500" height="100"></div>
+<script>
+function ValidateContactForm()
+{
+    var fname = document.ContactForm.firstname;
+    var lname = document.ContactForm.lastname;
+    var email = document.ContactForm.email;
+    var pwd = document.ContactForm.pwd;
+    var contact = document.ContactForm.contact;
+    var street = document.ContactForm.street;
+    var house = document.ContactForm.house;
+    var zip = document.ContactForm.zip;
+    var city = document.ContactForm.city;
+
+    if (fname.value == "")
+    {
+        window.alert("Please enter your first name.");
+        fname.focus();
+        return false;
+    }
+	
+	if (lname.value == "")
+    {
+        window.alert("Please enter your last name.");
+        lname.focus();
+        return false;
+    }
+    
+    if (email.value == "")
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf("@", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf(".", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+	
+	if (pwd.value == "")
+    {
+        window.alert("Please enter your password.");
+        pwd.focus();
+        return false;
+    }
+	
+	if (contact.value == "")
+    {
+        window.alert("Please enter your contact number.");
+        contact.focus();
+        return false;
+    }
+	
+	if (street.value == "")
+    {
+        window.alert("Please enter your street number.");
+        street.focus();
+        return false;
+    }
+	
+	if (house.value == "")
+    {
+        window.alert("Please enter your house number.");
+        house.focus();
+        return false;
+    }
+	
+	if (zip.value == "")
+    {
+        window.alert("Please enter your cities zip code.");
+        zip.focus();
+        return false;
+    }
+	
+	if (city.value == "")
+    {
+        window.alert("Please enter your city.");
+        city.focus();
+        return false;
+    }
+    return true;
+}
+</script>
+<form class="search1">
+<button type="submit" formaction="http://localhost/login_success.php">Search Advertisements</button>
+</form>
+</head>
+<body>
+<form  method="post" action="submit.php" name="ContactForm" onsubmit="return ValidateContactForm();" class="signup_form">
+<fieldset id="field">
+<legend>Personal information:</legend>
+First name:<br> <input type="text" name="firstname"><br>
+Last name:<br> <input type="text" name="lastname"><br>
+Password:<br> <input type="password" name="pwd"><br>
+Gender:<br><select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select><br>
+Email:<br> <input type="text" name="email"><br>
+Contact:<br> <input type="text" name="contact"><br>
+<fieldset>
+<legend>Address:</legend>
+	House:  <input type="text" name="house">
+	City:    <input type="text" name="city"><br><br>
+	Street:   <input type="text" name="street">
+	Zip:  <input type="text" name="zip"><br>
+</fieldset>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+</body>
+</html>
